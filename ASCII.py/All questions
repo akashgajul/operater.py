@@ -1,0 +1,54 @@
+a = 'X'
+print("The ASCII value of X is", ord(a))
+
+a='x'
+print("The ASCII value of x is", ord(a))
+
+#12) Write Program to Compute Quotient and Remainder
+a=4
+b=8
+
+q = a//b
+print("Quotient: ", q)
+r = a%b
+print("Remainder", r)
+
+
+#13
+x = 5
+y = 10
+
+temp = x
+x = y
+y = temp
+
+print("x value after swapping is ",x)
+print("y value after swapping is ",y)
+
+#14Write Program to Check Whether a Number is Even or Odd - 88,37,1658
+
+x=88371658
+
+if (x % 2) == 0 :
+    print("Number is Even ",x)
+else :
+    print("Number is Odd ",x)
+
+#15Check whether an alphabet is vowel or consonant using if..else statement - a,b,e,o
+
+x='a'
+
+if x in ('a','e','i','o','u') :
+    print("The given Alphabet is vowel",x)
+else :
+    print("The given Alphabet is consonant",x)
+
+
+#16Write Programm to calculate GST i.e. 18% on base price 34900/-
+
+
+
+
+gst = ((18/100) * 34900)
+
+print("gst is ",gst)
